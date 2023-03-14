@@ -1,0 +1,37 @@
+*{
+    background-color: wheat;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid silver;
+    margin: 1.53%;
+}
+.item img{
+    width: 100%;
+}
+nav{
+    padding: .5% 1.5%;
+    border-bottom:1px solid silver;
+}
+.logo{
+    width: 200px;
+}
+nav ul{
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    margin: 30px 15px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+}
+nav ul li a:hover{
+    color: aqua;
